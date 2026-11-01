@@ -11,8 +11,17 @@ jobs:
           distribution: temurin
           java-version: 21
       - name: Build
-        run: chmod +x ./gradlew && ./gradlew build
+        run: |
+          GRADLEW=$(find . -name gradlew -not -path './.git/*' | head -1)
+          if [ -z "$GRADLEW" ]; then
+            echo "HITTAR INTE gradlew - filen kom inte med i uppladdningen"
+            ls -R | head -50
+            exit 1
+          fi
+          cd "$(dirname "$GRADLEW")"
+          chmod +x gradlew
+          ./gradlew build
       - uses: actions/upload-artifact@v4
         with:
           name: castlegates-mod
-          path: build/libs/castlegates-*.jar
+          path: '**/build/libs/castlegates-*.jar'
