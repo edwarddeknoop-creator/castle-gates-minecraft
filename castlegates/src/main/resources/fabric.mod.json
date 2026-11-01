@@ -1,0 +1,27 @@
+{
+	"schemaVersion": 1,
+	"id": "castlegates",
+	"version": "${version}",
+	"name": "Castle Gates (Slottgrindar)",
+	"description": "Stora fällgaller och vindbryggor som dras upp och ner med kedjor från en vinsch.",
+	"authors": [
+		"ritchieb73"
+	],
+	"license": "CC0-1.0",
+	"icon": "assets/castlegates/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.castlegates.CastleGates"
+		],
+		"client": [
+			"com.castlegates.client.CastleGatesClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.16.0",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

@@ -1,0 +1,11 @@
+{
+  "block.castlegates.portcullis": "Fällgaller",
+  "block.castlegates.drawbridge": "Vindbrygga",
+  "block.castlegates.winch": "Grindvinsch",
+  "message.castlegates.opening": "Kedjorna skramlar... grinden öppnas!",
+  "message.castlegates.closing": "Kedjorna skramlar... grinden stängs!",
+  "message.castlegates.already_open": "Grinden är redan öppen.",
+  "message.castlegates.already_closed": "Grinden är redan stängd.",
+  "message.castlegates.no_gate": "Ingen grind hittades! Häng kedjor rakt ner från vinschen till toppen av ett fällgaller eller en vindbrygga.",
+  "message.castlegates.too_big": "Grinden är för stor (max %s block, 48 hög)."
+}

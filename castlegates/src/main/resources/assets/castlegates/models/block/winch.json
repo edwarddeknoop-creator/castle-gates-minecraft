@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/orientable_with_bottom",
+  "textures": {
+    "front": "castlegates:block/winch_front",
+    "side": "castlegates:block/winch_side",
+    "top": "castlegates:block/winch_top",
+    "bottom": "castlegates:block/winch_top"
+  }
+}

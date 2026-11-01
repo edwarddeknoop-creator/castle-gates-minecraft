@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "castlegates:block/winch"
+    },
+    "facing=east": {
+      "model": "castlegates:block/winch",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "castlegates:block/winch",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "castlegates:block/winch",
+      "y": 270
+    }
+  }
+}

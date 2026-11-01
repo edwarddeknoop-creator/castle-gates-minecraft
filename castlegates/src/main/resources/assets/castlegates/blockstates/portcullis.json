@@ -1,0 +1,11 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "castlegates:block/portcullis"
+    },
+    "axis=z": {
+      "model": "castlegates:block/portcullis",
+      "y": 90
+    }
+  }
+}

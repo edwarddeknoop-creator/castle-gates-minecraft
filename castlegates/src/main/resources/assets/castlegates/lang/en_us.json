@@ -1,0 +1,11 @@
+{
+  "block.castlegates.portcullis": "Portcullis",
+  "block.castlegates.drawbridge": "Drawbridge",
+  "block.castlegates.winch": "Gate Winch",
+  "message.castlegates.opening": "The chains rattle... the gate is opening!",
+  "message.castlegates.closing": "The chains rattle... the gate is closing!",
+  "message.castlegates.already_open": "The gate is already open.",
+  "message.castlegates.already_closed": "The gate is already closed.",
+  "message.castlegates.no_gate": "No gate found! Hang chains straight down from the winch to the top of a portcullis or drawbridge.",
+  "message.castlegates.too_big": "The gate is too big (max %s blocks, 48 tall)."
+}
